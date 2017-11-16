@@ -19,3 +19,6 @@ from google.colab import files
 __all__ = ['auth', 'files']
 
 __version__ = '0.0.1a2'
+
+def _jupyter_nbextension_paths():
+  return [dict(section="notebook", src="resources", dest="googlecolab")]

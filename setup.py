@@ -46,4 +46,9 @@ setup(
         'Operating System :: OS Independent',
         'Topic :: Internet :: WWW/HTTP',
     ),
+    package_data={
+        'google.colab': [
+            'resources/files.js',
+        ],
+    }
 )
